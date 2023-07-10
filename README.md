@@ -82,19 +82,92 @@ Este desafio foi baseado neste outro desafio: https://github.com/lschallenges/da
 
 ---
 
-Boa sorte!
+Boa sorte!<br />
+
+# RESPOSTA DO TESTE<br />
+
+## Setup <br />
+Na raiz do projeto execute os comando das pastas :<br />
+Para instala e configura as imagens e containers <br />
+entre na pasta back-end<br />
+
+# MyAppMarina BackEnd SpringBoot Java 8<br />
+
+This project was generated with [SpringBoot](https://spring.io/projects/spring-boot/) version 2<br />
+
+
+## To deploy the application run the commands<br />
+
+## Run this command below:<br />
+docker-compose up -d<br />
+
+## Attention ports used by the system<br />
+
+the ports listed below must not be used for the application to deploy correctly<br />
+<br />
+8765 - gateway<br />
+5055 - core<br />
+5051 - oauth2<br />
+8761 - registre eureka<br />
+5432 - postgresSQL  <br />
+80   - front-end aplication<br />
+8080 - front-end aplication<br />
+
+
+## after creating the img system up online in average 3 minutes:
+
+after uploading the images, two default emails will be produced to access the application <br />
+	the admin: <br />
+	email= admin@todo.com <br />
+	password = 123456 <br />
+	for user: <br />
+	email= test@todo.com <br />
+	password = 123456 <br />
+
+## Document of system is Swagger in localhots 8765
+
+go after up system<br />
+[Swagger](http://localhost:8765/core/swagger-ui/index.html)<br />
+<br />
+or in <br />
+<br />
+[Swagger direct](http://localhost:5055/swagger-ui/index.html#/)<br />
 
 
 
-## Telas
-LOGIN
-![LOGIN](login.JPG)
-CRIAR LOGIN
-![CRIAR](create-login.JPG)
-HOME
-![HOME](lista.JPG)
-UP LOAD FILE
-![FILE](uploadfile.JPG)
-DOC
-![DOC](doc.JPG)
+
+
+#Para o front-end entre na pasta e execute os comandos<br />
+
+## To deploy the application run the commands<br />
+
+## run this command below:<br />
+docker build -t ng-docker-app:v1.0.0 -f ./Dockerfile .<br />
+
+## after creating the img run this command below:<br />
+docker run -p 8000:80 -d ng-docker-app:v1.0.0<br />
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Telas<br />
+LOGIN<br />
+![LOGIN](login.JPG)<br />
+CRIAR LOGIN<br />
+![CRIAR](create-login.JPG)<br />
+HOME<br />
+![HOME](lista.JPG)<br />
+UP LOAD FILE<br />
+![FILE](uploadfile.JPG)<br />
+DOC<br />
+![DOC](doc.JPG)<br />
 ### Fim Obrigado! :D 🚀
