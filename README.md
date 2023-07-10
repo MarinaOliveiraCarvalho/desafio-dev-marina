@@ -83,3 +83,18 @@ Este desafio foi baseado neste outro desafio: https://github.com/lschallenges/da
 ---
 
 Boa sorte!
+
+
+
+## Telas
+LOGIN
+![LOGIN](login.jpg)
+CRIAR LOGIN
+![CRIAR](create-login.jpg)
+HOME
+![HOME](lista.jpg)
+UP LOAD FILE
+![FILE](enviar arquivo.jpg)
+DOC
+![DOC](doc.jpg)
+### Fim Obrigado! :D 🚀
