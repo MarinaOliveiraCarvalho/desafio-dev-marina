@@ -1,0 +1,60 @@
+<div >
+	<mat-card >
+		<mat-card-content>
+			<!-- <form [formGroup]="form" (ngSubmit)="onSubmit()"> -->
+				<mat-card-title>
+					<p>Upload new file CNAB</p>
+				</mat-card-title>
+        <form [formGroup]="form" (ngSubmit)="onSubmit()">
+
+          <div>
+            <mat-toolbar *ngIf="currentFile" class="progress-bar">
+              <mat-progress-bar color="accent" [value]="progress"></mat-progress-bar>
+              <span class="progress">{{ progress }}%</span>
+            </mat-toolbar>
+          
+            <mat-form-field style="display: flex;">
+              <div>
+                <mat-toolbar>
+                  <input matInput [value]="fileName" />
+          
+                  <button
+                    mat-flat-button
+                    color="primary"
+                    [disabled]="!currentFile"
+                    (click)="upload()" >
+                    select
+                  </button>
+                </mat-toolbar>
+          
+                <input
+                  type="file"
+                  id="fileInput"
+                  (change)="selectFile($event)"
+                  name="fileInput"
+                />
+              </div>
+            </mat-form-field>
+          </div>
+
+          <br />
+          <section>
+            <div class="example-button-row">
+              <div class="demo-button-container" >
+    
+                <button mat-raised-button color="primary" (click)="goBack()" class="demo-button" style="margin-right:20px">
+                  back page
+                </button>
+                <button mat-raised-button color="primary" type="submit">Upload</button>
+              </div>
+            </div>
+          </section>
+
+
+        </form>
+				
+				
+			<!-- </form> -->
+		</mat-card-content>
+	</mat-card>
+</div>
