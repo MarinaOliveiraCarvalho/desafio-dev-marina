@@ -94,7 +94,7 @@ CRIAR LOGIN
 HOME
 ![HOME](lista.JPG)
 UP LOAD FILE
-![FILE](enviar20%arquivo.JPG)
+![FILE](uploadfile.JPG)
 DOC
 ![DOC](doc.JPG)
 ### Fim Obrigado! :D 🚀
