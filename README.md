@@ -90,11 +90,11 @@ Boa sorte!
 LOGIN
 ![LOGIN](login.JPG)
 CRIAR LOGIN
-![CRIAR](create-login.jpg)
+![CRIAR](create-login.JPG)
 HOME
-![HOME](lista.jpg)
+![HOME](lista.JPG)
 UP LOAD FILE
-![FILE](enviar arquivo.jpg)
+![FILE](enviar arquivo.JPG)
 DOC
-![DOC](doc.jpg)
+![DOC](doc.JPG)
 ### Fim Obrigado! :D 🚀
